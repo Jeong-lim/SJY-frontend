@@ -1,0 +1,267 @@
+#sop_detail_cp_container {
+    margin-left: 20%;
+}
+
+#detail_cp_1 {
+    width: 50%;
+    height: 70%;
+    float: left;
+}
+
+#detail_cp_2 {
+    width: 50%;
+    height: 70%;
+    float: right;
+}
+#h122 {
+    margin-top: 10%;
+}
+
+.project_detail_wrapper {
+    margin-left: 20%;
+}
+
+.detail_cp_title {
+    float: left;
+    font-size: 22px;
+    font-weight: 700;
+    color: grey;
+}
+.detail_cp_content {
+    float: left;
+    margin-left: 7%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sopDetail_hr_tag {
+    margin-top: 5%;
+    border: 2px solid darkgrey;
+    width: 63%;
+    margin-left: 20%;
+}
+
+.sopDetailContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+h1 {
+    font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.Detail_address {
+    width: 30%;
+    height: 30%;
+    background: #1f98f4;
+}
+
+.SopDetailManage_container {
+    margin: 3% 20% 10%;
+}
+
+.sopDetail_manage_button1 {
+    float: right;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: white;
+    background: #93C5FD;
+    line-height: 1.15;
+    font-size: 16px;
+}
+.sopDetail_manage_button1:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+
+.sopDetail_manage_button1:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #93C5FD;
+}
+
+.sopDetail_manage_button2 {
+    margin-right: 2%;
+    float: right;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: white;
+    background: #93C5FD;
+    line-height: 1.15;
+    font-size: 16px;
+}
+.sopDetail_manage_button2:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #93C5FD;
+}
+
+.SopDetailManage_button_container {
+    padding-bottom: 5%;
+    margin-right: 4%;
+
+}
+
+.sopDetail_manage_button3 {
+    margin-right: 2%;
+    float: right;
+    outline: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: white;
+    background: #93C5FD;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+.sopDetail_manage_button3:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #93C5FD;
+}
+
+.SopDatail_team_apply {
+    position: sticky;
+    top: 300px;
+    width: 25%;
+    height: 50%;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    padding: 3% 2%;
+    display: inline-block;
+    float: left;
+    margin-left: -10%;
+}
+#manage_apply_container {
+    margin-left: 18%;
+    width: 60%;
+    height: 20%;
+    margin-top: -100px;
+    border: 2px lightgrey solid;
+    border-radius: 20px;
+}
+
+
+.manage_apply_body {
+    margin-left: 3%;
+}
+
+#manage_team_container {
+    margin-left: 18%;
+    width: 60%;
+    height: 20%;
+    margin-top: -100px;
+    border: 2px lightgrey solid;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+
+
+.manage_hr {
+    margin-left: 18%;
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+.apply_title {
+    margin-left: 19%;
+    margin-bottom: 10%;
+}
+
+.team_manage_title {
+    margin-left: 19%;
+    margin-bottom: 10%;
+    margin-top: -8%;
+}
+
+.manage_agree {
+    float: right;
+    margin-right: 2%;
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    height: 34px;
+    padding: 0 13px;
+    color: #fff;
+    vertical-align: top;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    background: #2563EB;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 11px;
+}
+
+.manage_agree:hover {
+    background: #3B82F6;
+    border-color: #3B82F6;
+}
+
+
+.manage_disagree {
+    float: right;
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    height: 34px;
+    padding: 0 13px;
+    color: #fff;
+    vertical-align: top;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+    background: #ee243c;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 11px;
+}
+
+.manage_disagree:hover {
+    background: #f4495d;
+    border-color: #f4495d;
+}
+
+.v-line_detail_cp {
+    border-left : 4px solid #3B82F6;
+    height : 50px;
+    float: left;
+    margin-right: -5%;
+    margin-top: 0.5%;
+}
+
+.sidebar_detail_wrapper {
+    margin-left: -10%;
+}
+
+.sopboard_detailCP_font {
+    font-size: 20px;
+    float: left;
+    font-family: "Spoqa Han Sans Neo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin-left: 2%;
+    font-weight: 500;
+}
+
+.boardInput textarea:hover {
+    border-color: #1d88f2;
+
+}
+
+.boardInput textarea:focus {
+    border-color: #1d88f2;
+}
